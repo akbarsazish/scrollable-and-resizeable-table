@@ -10,7 +10,7 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="images/table.PNG" alt="screenshot" width="auto" height="480"/></div>|
+|<div align="center"><img src="./images/table.png" alt="screenshot" width="auto" height="480"/></div>|
 
 # 📗 Table of Contents
 
@@ -22,7 +22,6 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -48,20 +47,6 @@
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
     <li><a href="#">JAVASCRIP</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#"></a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#"></a></li>
   </ul>
 </details>
 
@@ -93,8 +78,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 - Clone on your local system.
-- A browser of you choice.
-- A text editor of your choice.
+- On your browser open the HTML file.
 
 
 ### Setup
@@ -104,19 +88,11 @@ Clone this repository to your desired folder:
 - Use the following Commands:
 
       cd your-desired-folder
-      git clone git@github.com:ab-noori/Portfolio.git
-
-
-
-### Install
-
-Install this project with:
-  - You can deploy it with your hosting provider of your choise.
+      git clone https://github.com/akbarsazish/scrollable-and-resizeable-table.git
 
 
 ### Usage
 To use the scrollable and resizable table, simply include the provided HTML structure, CSS styles, and JavaScript functionality in your web application. The table can be customized by modifying the HTML content, CSS styles, and JavaScript code to fit your specific requirements
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
