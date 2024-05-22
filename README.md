@@ -10,7 +10,7 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./images/table.PNG" alt="screenshot" width="auto" height="480"/></div>|
+|<div align="center"><img src="images/table.PNG" alt="screenshot" width="auto" height="480"/></div>|
 
 # 📗 Table of Contents
 
@@ -155,8 +155,6 @@ Feel free to check the [issues page](../../issues/).
 If you like this project, you are most welcome to Contribute.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 
