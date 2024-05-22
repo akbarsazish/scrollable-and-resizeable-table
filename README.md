@@ -32,7 +32,7 @@
 
 # 📖 [Scrollable-and-Resizeable-Table] <a name="about-project"></a>
 
-> **[Scrollable-and-Resizeable-Table]** This repository provides a solution for creating a scrollable and resizable table using HTML, CSS, and JavaScript. The table allows users to resize columns by dragging the column headers and scroll both horizontally and vertically to view large datasets. The implementation ensures consistent behavior in column resizing, even when the table width changes or columns are toggled.
+This repository provides a solution for creating a scrollable and resizable table using HTML, CSS, and JavaScript. The table allows users to resize columns by dragging the column headers and scroll both horizontally and vertically to view large datasets. The implementation ensures consistent behavior in column resizing, even when the table width changes or columns are toggled.
 
 
 ## 🛠 Built With <a name="built-with"></a>
