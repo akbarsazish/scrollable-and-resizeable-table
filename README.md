@@ -10,7 +10,7 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./images/table.png" alt="screenshot" width="auto" height="480"/></div>|
+|<div align="center"><img src="./images/table.png" alt="screenshot" width="auto" height="400"/></div>|
 
 # 📗 Table of Contents
 
@@ -27,8 +27,6 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
