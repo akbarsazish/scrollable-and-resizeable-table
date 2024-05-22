@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Ali Akbar Sazish">
+	
+	<title>
+		Scrollable And Resizeable Table
+	</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container"> 
+        <h1> Scrollable And Resizeable Table </h1>
+	<table class="scrollable-table" id="resizeableTable">
+		<thead class="table-header">
+			<tr>
+				<th id="resizeableTd-1">Heading 1 widder </th>
+				<th id="resizeableTd-2">Heading 2</th>
+				<th id="resizeableTd-3">Heading 3</th>
+				<th id="resizeableTd-4">Heading 4 widder </th>
+				<th id="resizeableTd-5">Heading 5</th>
+				<th id="resizeableTd-6">Heading 6</th>
+				<th id="resizeableTd-7">Heading 7 </th>
+				<th id="resizeableTd-8">Heading 8 </th>
+				<th id="resizeableTd-9">Heading 9</th>
+				<th id="resizeableTd-10">Heading 10 </th>
+			</tr>
+		</thead>
+
+		<tbody class="table-body">
+			<tr>
+				<td class="resizeableTd-1">Content and more Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+			<tr>
+				<td class="resizeableTd-1">Content</td>
+				<td class="resizeableTd-2">Content</td>
+				<td class="resizeableTd-3">Content</td>
+				<td class="resizeableTd-4">Content and more Content </td>
+				<td class="resizeableTd-5">Content</td>
+				<td class="resizeableTd-6">Content</td>
+				<td class="resizeableTd-7">Content</td>
+				<td class="resizeableTd-8">Content</td>
+				<td class="resizeableTd-9">Content</td>
+				<td class="resizeableTd-10">Content</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<script>
+	function makeTableColumnsResizable(tableId) {
+    const resizableThs = document.querySelectorAll(`#${tableId} th`);
+    resizableThs.forEach((th) => {
+      const columnId = th.id;
+      const columnClass = `.${columnId}`;
+      let startX;
+      let startWidth;
+
+      const initialWidth = th.offsetWidth + 'px';
+      th.style.width = initialWidth;
+
+      const associatedTds = document.querySelectorAll(columnClass);
+      associatedTds.forEach((td) => {
+        td.style.width = initialWidth;
+      });
+
+      th.addEventListener('mousedown', (e) => {
+        startX = e.pageX;
+        startWidth = th.offsetWidth;
+
+        document.addEventListener('mousemove', handleMouseMove);
+        const isRTL = document.documentElement.dir === 'rtl';
+
+        function handleMouseMove(e) {
+		  const offset = isRTL ? e.pageX - startX : startX - e.pageX;
+          const newWidth = startWidth - offset;
+          th.style.width = newWidth + 'px';
+
+          associatedTds.forEach((td) => {
+            td.style.width = newWidth + 'px';
+          });
+        }
+
+        document.addEventListener('mouseup', () => {
+          document.removeEventListener('mousemove', handleMouseMove);
+        });
+
+      });
+    });
+  }
+
+window.onload = ()=>{
+	makeTableColumnsResizable('resizeableTable');
+}
+</script>
+
+	<body>
+</html>
