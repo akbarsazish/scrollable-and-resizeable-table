@@ -10,7 +10,7 @@
 
 | Project Veiw Screenshots|
 |---------------------------------------|
-|<div align="center"><img src="./images/table.png" alt="screenshot" width="auto" height="400"/></div>|
+|<div align="center"><img src="./images/table.png" alt="screenshot" width="auto" height="333"/></div>|
 
 # 📗 Table of Contents
 
@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo On Gh-pages]()
+> - [Live Demo On Gh-pages](https://akbarsazish.github.io/scrollable-and-resizeable-table/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,7 +126,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you are most welcome to Contribute.
+Contributions to this repository are welcome. If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the repository's GitHub page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
